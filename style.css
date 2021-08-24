@@ -1,0 +1,63 @@
+/*
+
+selector {
+    propiedad: valor;
+}
+
+*/
+
+h1 {
+    border: 30px double green;
+}
+
+.fa-paper-plane {
+    color: red;
+    font-size: 50px;
+}
+
+section#home {
+    width: 100%;
+    background-color: black;
+}
+
+.titulo {
+    margin: 20px;
+    padding: 10px 10px;
+    border: 10px solid gray;
+}
+
+#home {
+    width: 50%;
+    background-color: red;
+}
+
+h1, h2, h3 {
+
+}
+
+h4, h5, h6 {
+
+}
+
+section#home > p {
+    color: red;
+}
+
+section#home div p { /* Selector Descendiente */
+    color: blue;
+}
+
+/*
+padding, margin, border
+
+margin: 10px; top right bottom left
+margin: 10px 10px; top/bottom left/right
+margin: 10px 10px 10px; top left/right bottom
+margin: 10px 10px 10px 10px; top right bottom left
+
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+*/
